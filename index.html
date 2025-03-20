@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador HAL Multipropósito - Columbus Hospital Simulation Center</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #0055a4;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .main-title {
+            font-family: 'Times', 'Times New Roman', serif;
+            font-size: 2.5rem;
+            margin: 0;
+            font-weight: 700;
+        }
+        .simulator-name {
+            font-family: 'Times', 'Times New Roman', serif;
+            font-size: 2rem;
+            margin: 1rem 0 0 0;
+            font-weight: 500;
+            color: #ffcc00; /* Color amarillo para resaltar */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 40%; /* Reducimos el tamaño del video */
+            height: 0;
+            overflow: hidden;
+            margin: 2rem 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            max-width: 800px; /* Limitamos el ancho máximo del video */
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .video-container iframe, .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .info-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .info-box {
+            flex: 1;
+            min-width: 300px;
+            background-color: #f7f9fc;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: #0055a4;
+            margin-top: 0;
+            font-family: 'Times', 'Times New Roman', serif;
+        }
+        footer {
+            background-color: #0055a4;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="main-title">Columbus Hospital Simulation Center</h1>
+        <h2 class="simulator-name">Simulador HAL Multipropósito</h2> <!-- Nuevo título -->
+    </header>
+
+    <div class="container">
+        <!-- Video del simulador (con autoplay) -->
+        <div class="video-container">
+            <video autoplay muted loop>
+                <source src="saveinstacc-720p-gaumard-hal-s5301-the-worlds-most-advance-patient-simulator_dJ3CorZE.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+        </div>
+
+        <div class="info-section">
+            <div class="info-box">
+                <h2>Descripción del Simulador</h2>
+                <p>HAL Multipropósito es un simulador de paciente adulto de cuerpo completo y alta fidelidad, diseñado para entrenamiento avanzado en múltiples especialidades médicas. Cuenta con características anatómicas precisas, respuestas fisiológicas realistas y capacidad de simular un amplio espectro de condiciones clínicas. Este simulador permite la práctica de procedimientos como intubación, ventilación, desfibrilación, acceso intravenoso y monitorización de signos vitales. Su software avanzado permite programar escenarios clínicos complejos y capturar el desempeño del estudiante para evaluación posterior.</p>
+            </div>
+            
+            <div class="info-box">
+                <h2>Beneficios para el Estudiante</h2>
+                <ul>
+                    <li>Exposición a una amplia variedad de condiciones clínicas en un entorno controlado</li>
+                    <li>Desarrollo de habilidades en procedimientos médicos avanzados con retroalimentación inmediata</li>
+                    <li>Práctica de toma de decisiones clínicas bajo presión sin riesgo para pacientes reales</li>
+                    <li>Mejora de habilidades de trabajo en equipo y comunicación en situaciones de emergencia</li>
+                    <li>Integración de conocimientos teóricos con aplicación práctica</li>
+                    <li>Familiarización con equipos médicos de uso habitual en entornos hospitalarios</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Columbus Hospital Simulation Center | Contacto: simulation@columbushospital.edu</p>
+    </footer>
+</body>
+</html>
